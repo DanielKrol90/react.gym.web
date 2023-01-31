@@ -27,6 +27,16 @@ import header2 from './header_bg_2.jpg';
 import header3 from './header_bg_3.jpg';
 import header4 from './header_bg_4.jpg';
 import header5 from './header_bg_5.jpg';
+import logo1 from './logo.png';
+import logo2 from './logo.psd';
+import mainheader from './main_header.png';
+import trainer1 from './trainer1.jpg';
+import trainer2 from './trainer2.jpg';
+import trainer3 from './trainer3.jpg';
+import trainer4 from './trainer4.jpg';
+import trainer5 from './trainer5.jpg';
+import trainer6 from './trainer6.jpg';
+import values from './values.jpg';
 
 export {
     about1, about2, about3, about4, about5, about6,about7,
@@ -34,4 +44,8 @@ export {
     gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7,
     gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,
     header1, header2, header3, header4, header5,
+    logo1, logo2,
+    mainheader,
+    trainer1, trainer2, trainer3, trainer4, trainer5, trainer6,
+    values
 }
