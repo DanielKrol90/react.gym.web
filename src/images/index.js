@@ -1,10 +1,13 @@
 import about1 from './about1.jpg';
 import about2 from './about2.jpg';
 import about3 from './about3.jpg';
-import about4 from './about4.jpg';
-import about5 from './about5.jpg';
-import about6 from './about6.jpg';
-import about7 from './about7.jpg';
+import avatar1 from './avatar1.jpg';
+import avatar2 from './avatar2.jpg';
+import avatar3 from './avatar3.jpg';
+import avatar4 from './avatar4.jpg';
+import avatar5 from './avatar5.jpg';
+import avatar6 from './avatar6.jpg';
+import avatar7 from './avatar7.jpg';
 import bg1 from './bg_texture.png';
 import bg2 from './bg_texture.psd';
 import gallery1 from './gallery1.jpg';
@@ -39,7 +42,8 @@ import trainer6 from './trainer6.jpg';
 import values from './values.jpg';
 
 export {
-    about1, about2, about3, about4, about5, about6,about7,
+    about1, about2, about3,
+    avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar7,
     bg1, bg2,
     gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7,
     gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,

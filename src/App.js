@@ -1,17 +1,22 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { About, Contact, Gallery, Home, NotFound, Plans, Trainers } from './pages/index.js';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <About/>
-      <Contact/>
-      <Gallery/>
-      <Plans/>
-      <Trainers/>
-      <Plans/>
-      <NotFound/>
+      <BrowserRouter>
+        <Navbar/>
+        <Home/>
+        <About/> 
+        <Contact/>
+        <Gallery/>
+        <Plans/>
+        <Trainers/>
+        <Plans/>
+        <NotFound/>
+      </BrowserRouter>
     </div>
   );
 }
