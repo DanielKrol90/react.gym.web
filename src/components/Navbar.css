@@ -90,7 +90,7 @@ nav {
         height: 4rem;
         width: 100%;
         box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
-        animation: navAnimation 600s ease forwards;
+        animation: navAnimation 600ms ease forwards;
         transform: rotateX(90deg);
         opacity: 0;
         transform-origin: top;
