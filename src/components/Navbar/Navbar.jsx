@@ -2,8 +2,8 @@ import { React, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 import './Navbar.css'
-import { logo1 } from '../images/index'
-import { links } from '../data';
+import { logo1 } from '../../images/index';
+import { links } from '../../data';
 import { FaBars } from 'react-icons/fa';
 import { MdOutlineClose } from 'react-icons/md'
 
@@ -19,9 +19,9 @@ const Navbar = () => {
                 </Link>
                 <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
                     {
-                        links.map(({ name, path }, index) => {
+                        links.map(({ name, path }) => {
                             return (
-                                <li key={index}>
+                                <li key={name}>
                                     <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''}>{name}</NavLink>
                                 </li>
                             )
