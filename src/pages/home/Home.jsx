@@ -1,12 +1,12 @@
 import React from 'react'
-import { Header } from './components/index.js';
+import { MainHeader } from '../../components/index';
 
 import './Home.css'
 
 const Home = () => {
   return (
     <>
-    <Header />
+    <MainHeader />
     </>
   )
 }

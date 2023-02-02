@@ -1,8 +1,8 @@
 import Navbar from './Navbar/Navbar.jsx';
-import Header from './Header/Header.jsx';
+import MainHeader from './Header/MainHeader.jsx';
 
 
 export {
     Navbar,
-    Header,
+    MainHeader,
 }
