@@ -1,13 +1,12 @@
 import React from "react";
 
-import { FaCrown } from "react-icons/fa";
 import "./SectionHeader.css";
 
-const SectionHeader = ({icon, tittle, className}) => {
+const SectionHeader = ({icon, title, className}) => {
   return (
-    <div className="section__head">
+    <div className={`section__head ${className}`}>
         <span>{icon}</span>
-        <h2>{tittle={}}</h2>
+        <h2>{title}</h2>
     </div>
   );
 };
