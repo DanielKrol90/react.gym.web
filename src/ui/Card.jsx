@@ -1,8 +1,9 @@
 import React from 'react'
+import './Card.css'
 
 const Card = ({className, children}) => {
   return (
-    <article className={`card-${className}`}>
+    <article className={`card ${className}`}>
         {children}
     </article>
   )
