@@ -39,7 +39,7 @@ import trainer3 from './trainer3.jpg';
 import trainer4 from './trainer4.jpg';
 import trainer5 from './trainer5.jpg';
 import trainer6 from './trainer6.jpg';
-import values from './values.jpg';
+import value from './values.jpg';
 
 export {
     about1, about2, about3,
@@ -51,5 +51,5 @@ export {
     logo1, logo2,
     mainheader,
     trainer1, trainer2, trainer3, trainer4, trainer5, trainer6,
-    values
+    value
 }
