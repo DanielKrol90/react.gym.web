@@ -3,6 +3,7 @@ import React from "react";
 import "./SectionHeader.css";
 
 const SectionHeader = ({icon, title, className}) => {
+
   return (
     <div className={`section__head ${className}`}>
         <span>{icon}</span>
