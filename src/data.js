@@ -82,6 +82,18 @@ export const values = [
         icon: <SiOpenaigym/>,
         title: "Value Four",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+    },
+    {
+        id: 5,
+        icon: <SiOpenaigym/>,
+        title: "Value Five",
+        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+    },
+    {
+        id: 6,
+        icon: <SiOpenaigym/>,
+        title: "Value Six",
+        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     }
 ]
 

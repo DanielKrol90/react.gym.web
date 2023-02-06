@@ -5,6 +5,8 @@ import SectionHeader from './Header/SectionHeader.jsx';
 import Values from './Values/Values.jsx';
 import FAQs from './FAQs/FAQs.jsx';
 import FAQ from './FAQs/FAQ.jsx';
+import Testimonials from './Testimonials/Testimonials.jsx';
+
 
 export {
     Navbar,
@@ -14,4 +16,5 @@ export {
     Values,
     FAQs,
     FAQ,
+    Testimonials,
 }
