@@ -3,7 +3,7 @@ import MainHeader from './Header/MainHeader.jsx';
 import Programs from './Programs/Programs.jsx';
 import SectionHeader from './Header/SectionHeader.jsx';
 import Values from './Values/Values.jsx';
-
+import FAQs from './FAQs/FAQs.jsx';
 
 export {
     Navbar,
@@ -11,4 +11,5 @@ export {
     Programs,
     SectionHeader,
     Values,
+    FAQs,
 }
