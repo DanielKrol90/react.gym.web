@@ -6,6 +6,7 @@ import Values from './Values/Values.jsx';
 import FAQs from './FAQs/FAQs.jsx';
 import FAQ from './FAQs/FAQ.jsx';
 import Testimonials from './Testimonials/Testimonials.jsx';
+import Footer from './Footer/Footer.jsx';
 
 
 export {
@@ -17,4 +18,5 @@ export {
     FAQs,
     FAQ,
     Testimonials,
+    Footer,
 }
