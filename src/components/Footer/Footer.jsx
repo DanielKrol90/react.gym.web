@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { logo1 } from '../../images';
-import { FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin, FaFacebookF } from 'react-icons/fa';
 import { AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai';
 import './Footer.css'
 
@@ -17,7 +17,7 @@ const Footer = () => {
                 </p>
                 <div className="footer__socials">
                     <a href="htttps://linkedin.com" target='_blank' rel='noreferrer noopener'><FaLinkedin/></a>
-                    <a href="htttps://facebook.com" target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
+                    <a href="htttps://facebook.com" target='_blank' rel='noreferrer noopener'><FaFacebookF/></a>
                     <a href="htttps://twitter.com" target='_blank' rel='noreferrer noopener'><AiOutlineTwitter/></a>
                     <a href="htttps://instagram.com" target='_blank' rel='noreferrer noopener'><AiFillInstagram/></a>
                 </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <Link to="/contact">Contact</Link>
             </article>
             <article>
-                <h4>Permalinks</h4>
+                <h4>Insights</h4>
                 <Link to="/s">Blog</Link>
                 <Link to="/s">Case Studies</Link>
                 <Link to="/s">Events</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <Link to="/s">FAQs</Link>
             </article>
             <article>
-                <h4>Permalinks</h4>
+                <h4>Get in Touch</h4>
                 <Link to="/contact">Contact Us</Link>
                 <Link to="/s">Support</Link>
             </article>
