@@ -38,4 +38,13 @@
     }
 
     /* testimonials */
+    .testimonials { 
+        width: 75%
+    }
+
+    /* footer */
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
 }
