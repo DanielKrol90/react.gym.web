@@ -1,0 +1,41 @@
+/* MEDIA QUERIES (medium screen */
+
+@media screen and (max-width: 1024px) {
+    /* main header */
+    .main__header {
+        height: fit-content;
+        padding: 12rem 0;
+    }
+    .main__header-container {
+        gap: 0;
+    }
+    .main__header-circle {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    /* programs */
+    .programs__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* values */
+    .values__container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .values__wrapper {
+        gap: 4rem 3rem;
+    }
+    .values__image {
+        display: none;
+    }
+
+    /* FAQs */
+    .faqs__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    /* testimonials */
+}
